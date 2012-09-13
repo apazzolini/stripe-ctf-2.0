@@ -1,0 +1,4 @@
+.project
+.pyproject
+level08-code/env
+*.pyc
