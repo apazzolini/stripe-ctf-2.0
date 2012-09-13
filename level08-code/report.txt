@@ -1,0 +1,3 @@
+This attack involved a few steps. First, I had to get SSH access to the level02 box, which was accomplished with a PHP file that dumped my public key to ~/.ssh/authorized_keys.
+
+Once I had SSH access to the box, I ran a Python program that brute forced each chunk individually. This was done by opening a local socket on level02 at a high port and setting that as a webhook for the post. By submitting a password request that I knew would fail followed by one that guessed the first chunk, I counted the delta in the foreign port that was opened. This tells you if the chunk succeeded or not. Once you had a chunk that succeeded, you could look for the next chunk.
